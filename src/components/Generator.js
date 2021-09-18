@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from 'antd';
 import {startLetters, alphabets} from '../lib/letters';
 
-function Generator({ nricList, pushToList }) {
+function Generator({ pushToList }) {
 /**
  * TODO: Generation of NRIC starts here. 
  * ? The Function will run and create a new NRIC each time.
@@ -27,8 +27,7 @@ function Generator({ nricList, pushToList }) {
     
     return (
         <div>
-            The generator button will be here.
-            <Button type="primary" onClick={genIC} >Generate NRIC</Button>
+            <Button type="primary" onClick={genIC} style={{ backgroundColor: "#DB5375" }} >Generate NRIC</Button>
         </div>
     )
 }
