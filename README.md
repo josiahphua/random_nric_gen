@@ -8,7 +8,6 @@ The table has a pagination function and has a limit of 20/page as per default. W
 
 ## App Demo 
 <img src="https://github.com/josiahphua/random_nric_gen/blob/master/src/lib/nric_generator_example.gif" alt="App Demo Gif" style="max-width: 50%">
-![App Demo Gif](https://github.com/josiahphua/random_nric_gen/blob/master/src/lib/nric_generator_example.gif)
 
 ## Docker 
 
