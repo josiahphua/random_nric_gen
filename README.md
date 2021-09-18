@@ -7,7 +7,7 @@ The generated NRICs will be added to a table which will appear once a NRIC is ge
 The table has a pagination function and has a limit of 20/page as per default. When at least 50 NRIC is generated, the option of displaying the NRICs an option to display 10, 20, 50, or 100 per page will appear. 
 
 ## App Demo 
-<img src="https://github.com/josiahphua/random_nric_gen/raw/master/src/lib/nric_generator_example.gif" alt="App Demo Gif" style="max-width: 50%;">
+<img src="https://github.com/josiahphua/random_nric_gen/raw/master/src/lib/nric_generator_example.gif" alt="App Demo Gif" style="width: 50%;">
 
 ## Docker 
 
