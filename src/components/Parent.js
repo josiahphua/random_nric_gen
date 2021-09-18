@@ -38,7 +38,7 @@ function Parent() {
                 <Divider plain style={{ color: "#fff" }} >Generated NRIC Display</Divider>
                     <DisplayTable nricList={nricList} />
             </Content>
-            <Footer style={{ backgroundColor: "#EC9192" }}>
+            <Footer style={{ backgroundColor: "#EC9192", padding: "5px" }}>
                 <div>
                     <span style={{ color: "#fff", padding: "10px" }} >
                         Done by Josiah
