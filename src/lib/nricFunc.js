@@ -18,4 +18,5 @@ export const generateNRIC = async (state, fn) => {
         console.log("unique nric")
     }
 
+    return newIC
 }
