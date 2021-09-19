@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Table, Pagination } from 'antd';
+import { Table } from 'antd';
 
 function DisplayTable({ nricList }) {
     const dataSource = nricList.map((el, id)=>{
