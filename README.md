@@ -14,7 +14,7 @@ Simple Testing is done to check for rendering and proper functioning of componen
 Run tests using `npm test`
 
 ## Docker 
-To run docker please use `docker-compose up`. <br/>
+To run application please use `docker-compose up`. This way app will run in predefined port. <br/>
 The app will be running on port localhost:3000. 
 
 
