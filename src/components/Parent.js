@@ -3,8 +3,8 @@ import Generator from './Generator';
 import DisplayTable from './DisplayTable';
 import { Divider, Layout } from 'antd';
 import { GithubOutlined } from '@ant-design/icons';
+import { generateNRIC } from '../lib/nricFunc';
 
-const { Header, Footer , Content } = Layout;
 
 
 function Parent() {
@@ -14,17 +14,10 @@ function Parent() {
      */
 
     const [nricList, setNricList] = useState([])
+    const { Header, Footer , Content } = Layout;
 
-    const pushToList = async (nric) =>{
-        // test in function to see if IC repeated itself.
-        (nricList.indexOf(nric) > -1) 
-        ? 
-        alert("IC has already been generated before, Please generate IC again.") 
-        : 
-        await setNricList(prevState => {
-            return [...prevState, nric]
-        })
-        
+    const pushToList = () => {
+        generateNRIC(nricList, setNricList)
     }
 
     return (
