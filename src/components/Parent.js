@@ -16,8 +16,8 @@ function Parent() {
     const [nricList, setNricList] = useState([])
     const { Header, Footer , Content } = Layout;
 
-    const pushToList = () => {
-        generateNRIC(nricList, setNricList)
+    const pushToList = async () => {
+        await generateNRIC(nricList, setNricList)
     }
 
     return (
