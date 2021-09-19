@@ -10,8 +10,11 @@ The table has a pagination function and has a limit of 20/page as per default. W
 <img src="https://github.com/josiahphua/random_nric_gen/raw/master/src/lib/nric_generator_example.gif" alt="App Demo Gif" style="width: 50%;">
 
 ## Testing
+Simple Testing is done to check for rendering and proper functioning of component. <br/>
+Run tests using `npm test`
 
 ## Docker 
+
 
 
 
