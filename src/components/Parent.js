@@ -25,7 +25,6 @@ function Parent() {
             return [...prevState, nric]
         })
         
-        console.log("I'm here",nricList)
     }
 
     return (

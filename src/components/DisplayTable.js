@@ -36,7 +36,7 @@ function DisplayTable({ nricList }) {
                     
                 </Fragment>
                 :
-                <h3 style={{ color: "#fff" }} >No data to display. Please generate IC to start</h3>
+                <h3 data-testid="header" style={{ color: "#fff" }} >No data to display. Please generate IC to start</h3>
             }
         </div>
     )
@@ -44,10 +44,3 @@ function DisplayTable({ nricList }) {
 
 export default DisplayTable
 
-// <Pagination
-//                     total={`${nricList.length}`}
-//                     showTotal={(total, range) => `${range[0]}-${range[1]} of ${total} items`}
-//                     defaultPageSize={20}
-//                     defaultCurrent={1}
-//                     hideOnSinglePage={true}
-//                     />
