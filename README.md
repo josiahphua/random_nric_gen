@@ -8,6 +8,7 @@ The table is scrollable and has a pagination function which by default shows 20 
 
 ## App Demo 
 <img src="https://github.com/josiahphua/random_nric_gen/raw/master/src/lib/nric_generator_example.gif" alt="App Demo Gif" style="width: 50%;">
+As I was using an external recording app, the quality of the app is not the same the as the gif above. 
 
 ## Testing
 Simple Testing is done to check for rendering and proper functioning of component. <br/>
