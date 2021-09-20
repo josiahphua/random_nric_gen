@@ -1,5 +1,5 @@
-import { Layout } from 'antd';
 import './App.css';
+import { Layout } from 'antd';
 import Parent from './components/Parent';
 
 function App() {
