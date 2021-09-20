@@ -15,12 +15,9 @@ Simple Testing is done to check for rendering and proper functioning of componen
 Run tests using `npm test`
 
 ## Docker 
-Run the following commands to use in Docker.<br/>
-    - `docker build -t rng_dockerimage:dev .`<br/>
-    - `docker-compose build`<br/>
-    - `docker-compose up`<br/>
-
-To run application please use `localhost:3000`.
+App has been dockerized with an image saved. <br/>
+Please use rng_dockerimage.tar.gz file [here](https://drive.google.com/file/d/1ADo1_Qvdasw78jLNWSCE227OOFz-k2rz/view?usp=sharing)
+<br/>
 
 
 
